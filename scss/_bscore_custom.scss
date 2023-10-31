@@ -1368,14 +1368,14 @@ li.menu-sg {
   z-index:999999;
 }
 
-.primary-navigation > li > a {
+.nav-link {
   font-family: var(--uni) !important;
   font-size: 18px;
   line-height: 50px;
   color: #cacaca !important;
 }
 
-.primary-navigation > li > a:hover, .primary-navigation > li > a:active {
+.nav-link.active {
   color:#FFF !important;
 }
 
