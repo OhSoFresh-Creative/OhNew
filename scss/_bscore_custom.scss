@@ -1372,7 +1372,7 @@ li.menu-sg {
   font-family: var(--uni) !important;
   font-size: 18px;
   line-height: 50px;
-  color: #cacaca !important;
+  color: teal !important;
   padding: 20px 0 !important;
     margin: 0 20px;
 }
@@ -3523,7 +3523,7 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
   background-color: #151923;
 }
 
-.footer .widget ul.menu a, .footer .widget_recent_entries a {
+.footer_widget a {
   font-family: var(--mont);
   font-size:18px;
   font-weight: 400 !important;
@@ -3531,10 +3531,11 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
   color: #FFF !important;
 }
 
-.footer .nav-link:hover {
+.footer_widget a:hover {
   color: #FFF !important;
   background-color: transparent;
   opacity:0.5 !important;
+
 }
 
 .site-info {
