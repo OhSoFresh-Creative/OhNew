@@ -1,0 +1,14 @@
+{
+    "name": "acf/blogtxt",
+    "title": "Blog - text",
+    "description": "",
+    "style": [ "file:./blogtxt.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["blogtxt", "header"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "blogtxt.php"
+    },
+    "align": "full"
+}
